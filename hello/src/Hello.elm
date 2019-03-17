@@ -1,4 +1,8 @@
-import Html exposing (text)
+module Hello exposing (main)
+
+import Html exposing (..)
+import Html.Attributes exposing (..)
 
 
-main = text "Hello, world!"
+main =
+    a [ href "https://elm-lang.org" ] [ text "Elm" ]
